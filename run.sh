@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "🔍 Đang kiểm tra & Cập nhật thư viện..."
+echo "🔍 Checking & Updating libraries..."
 echo "🔁 Since this is the first time, it will take a while to install. Please wait..."
 install_node18() {
     sudo apt purge -y nodejs npm > /dev/null 2>&1
